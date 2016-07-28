@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/start_vertical_margin"
+    android:paddingLeft="@dimen/start_horizontal_margin"
+    android:paddingRight="@dimen/start_horizontal_margin"
+    android:paddingTop="@dimen/start_vertical_margin"
+    android:background="@drawable/bg_start"
+    android:gravity="bottom"
+    >
+	
+        
+    <Button
+        android:id="@+id/bt_enter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/purple_button"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+		android:textSize="20sp"
+        android:text="@string/enter"/>
+    <Button
+        android:id="@+id/bt_load"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/purple_button"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+		android:textSize="20sp"
+        android:text="@string/load"/>
+    <Button
+        android:id="@+id/bt_achievement"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/purple_button"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+		android:textSize="20sp"
+        android:text="@string/achievement"/>
+    <Button
+        android:id="@+id/bt_exit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        
+        android:background="@drawable/purple_button"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+		android:textSize="20sp"
+        android:text="@string/exit"/>
+</LinearLayout>

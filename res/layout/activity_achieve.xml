@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_level"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        
+        <TextView
+        	android:layout_width="match_parent"
+       	 	android:layout_height="wrap_content"
+       	 	android:id="@+id/achieve_title"
+        	android:layout_margin="10dp"
+        	android:gravity="center"
+        	android:textColor="#FFFFEE"
+        	android:textSize="30sp"
+        	android:text="@string/achievelist"/>
+        
+        <LinearLayout
+        	android:layout_width="match_parent"
+        	android:layout_height="wrap_content"
+        	android:orientation="horizontal"
+        	android:layout_margin="10dp">
+        	<TextView
+        	    android:id="@+id/achieve_id"
+        	    android:layout_width="0dp"
+        	    android:layout_height="wrap_content"
+        	    android:layout_weight="1"
+        	    android:gravity="center_horizontal"
+        	    android:textColor="#FFFFEE"
+      			android:textSize="20sp"
+        	    android:text="@string/achieveid"
+        	    />
+        	<TextView
+        	    android:id="@+id/achieve_score"
+        	    android:layout_width="0dp"
+        	    android:layout_height="wrap_content"
+        	    android:layout_weight="2"
+        	    android:gravity="center_horizontal"
+        	    android:textColor="#FFFFEE"
+      			android:textSize="20sp"
+        	    android:text="@string/achievescore"
+        	    />
+        </LinearLayout>
+        
+        <ListView 
+        	android:id="@+id/achievelist"
+        	android:layout_width="match_parent"
+        	android:layout_height="340dp"
+        	/>
+        
+    
+    	<LinearLayout
+        	android:layout_width="match_parent"
+        	android:layout_height="wrap_content">
+        	<Button
+        	    android:id="@+id/btn_achienter"
+            	android:layout_width="0dp"
+            	android:layout_height="wrap_content"
+            	android:layout_weight="1"
+            	android:layout_margin="10dp"
+            	android:background="@drawable/blue_button"
+            	android:text="@string/enter"
+            	android:textColor="#0000FF"
+            />
+         	<Button
+         	    android:id="@+id/btn_achiexit"
+            	android:layout_width="0dp"
+            	android:layout_height="wrap_content"
+            	android:layout_weight="1"
+            	android:layout_margin="10dp"
+            	android:background="@drawable/blue_button"
+            	android:text="@string/exit"
+            	android:textColor="#0000FF"
+            	/>
+          	<Button 
+          	    android:id="@+id/btn_achiclear"
+            	android:layout_width="0dp"
+            	android:layout_height="wrap_content"
+            	android:layout_weight="1"
+            	android:layout_margin="10dp"
+            	android:background="@drawable/blue_button"
+            	android:text="@string/clear"
+            	android:textColor="#0000FF"
+            />
+    	</LinearLayout>
+    </LinearLayout>
+</ScrollView>

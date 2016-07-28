@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">2048闯关</string>
+    <string name="enter">进入游戏</string>
+    <string name="load">读取游戏</string>
+    <string name="exit">退出</string>
+    <string name="achievement">战绩</string>
+    
+    <string name="score">目前得分</string>
+    <string name="record">最高分</string>
+    
+    <string name="revert">撤销</string>
+    <string name="restart">重玩</string>
+    <string name="clear">清空</string>
+    
+    <string name="achievelist">战绩榜</string>
+    
+    <string name="achieveid">级别</string>
+    <string name="achievescore">分数</string>
+
+</resources>
